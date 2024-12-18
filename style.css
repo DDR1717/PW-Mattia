@@ -1,0 +1,222 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  /* formattazione sfondo della pagina */
+  background-image: url("https://files.123freevectors.com/wp-content/original/119430-abstract-green-and-white-background-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /* formattazione classe per l'immagine-nome di Sorgenia */
+  .font_Sorgenia {
+    text-align: center;
+  }
+
+  /* formattazione classe per il bordo */
+  .bordo {
+    border-bottom-style: solid;
+    border-color: darkgreen;
+  }
+
+  /* formattazione classe per lo sfondo del container Panoramica e Sostenibilità */
+  .background_Panoramica_Sostenibilità {
+    background-image: url("https://eu.boell.org/sites/default/files/2024-03/hbs_action-plan_web-banner-1220x400.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 150% 100%;
+  }
+
+  /* formattazione classe nomi paragrafi */
+  .nomi_Paragrafi {
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  /* formattazione classe container Panoramica */
+  .container_Panoramica {
+
+    display: flex;
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+
+    p {
+      text-align: left;
+      color: darkblue;
+      font-size: 15px;
+    }
+
+    ul {
+      text-align: left;
+      list-style-type: square;
+      list-style-position: inside;
+      color: darkblue;
+      font-size: 15px;
+    }
+  }
+
+  .container_Panoramica>div {
+    width: 25%;
+  }
+
+  /* formattazione classe container Sostenibilità */
+  .container_Sostenibilità {
+
+    display: flex;
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    p {
+      text-align: center;
+      color: darkblue;
+      font-size: 15px;
+    }
+
+    ul {
+      text-align: left;
+      color: darkblue;
+      font-size: 15px;
+      list-style-type: square;
+      list-style-position: inside;
+    }
+
+    ol {
+      text-align: left;
+      color: darkblue;
+      font-size: 15px;
+    }
+
+  }
+
+  .container_Sostenibilità>div {
+    width: 25%;
+  }
+
+
+  /* formattazione classe pulsanti */
+  .button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  /* formattazione classe pulsante 1 */
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+  }
+
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /* formattazione classe pulsante 2 */
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+  }
+
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  /* formattazione classe pulsante 3 */
+  .button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+  }
+
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  /* formattazione classe pulsante 4 */
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+
+  .button4:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  /* formattazione classe container Cronistoria 1999/2020 */
+  .container_Cronistoria_1999_2020 {
+
+    display: flex;
+    text-align: center;
+    color: darkgreen;
+    font-size: 35px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    p {
+      text-align: left;
+      color: darkblue;
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    ul {
+      text-align: left;
+      list-style-type: square;
+      list-style-position: inside;
+      color: darkblue;
+      font-size: 18px;
+    }
+  }
+
+  .container_Cronistoria_1999_2020>div {
+    width: 25%;
+  }
+
+  /* formattazione classe container Cronistoria 2021/2023 */
+  .container_Cronistoria_2021_2023 {
+
+    display: flex;
+    text-align: center;
+    color: darkgreen;
+    font-size: 35px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+
+    p {
+      text-align: left;
+      color: darkblue;
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    ul {
+      text-align: left;
+      list-style-type: square;
+      list-style-position: inside;
+      color: darkblue;
+      font-size: 18px;
+    }
+  }
+
+  .container_Cronistoria_2021_2023>div {
+    width: 25%;
+  }
+}
